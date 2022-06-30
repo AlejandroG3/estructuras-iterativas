@@ -1,27 +1,25 @@
 Algoritmo iterativa5
-	Definir contrasena1,contrasena2 Como Caracter
-	contrasena1="";
-	contrasena2="";
+	Definir contrasena1,contrasena2 Como entero
+	contrasena1=0;
+	contrasena2=0;
 	
 	Imprimir "ingrese su contrasena";
 	leer contrasena1;
-	a=Longitud(contrasena1);
-	mientras a<10 Hacer
-		Imprimir "su contraseña no es segura, escribala de nuevo";
+	mientras contrasena1<999999999 Hacer
+		Imprimir "su contraseÃ±a no es segura, escribala de nuevo";
 		leer contrasena1;
-		a=Longitud(contrasena1);
+		
 	FinMientras
-	si a>=10 Entonces
-		Imprimir "exito al establecer su contraseña!!";
+	si contrasena1>999999999 Entonces
+		Imprimir "exito al establecer su contraseÃ±a!!";
 	FinSi
-	
-	//no está en la tarea pero quise agregarle esto para comprobar la contraseña
-	Imprimir "ingrese nuevamente su contraseña";
+	//no estÃ¡ en la tarea pero quise agregarle esto para comprobar la contraseÃ±a
+	Imprimir "ingrese nuevamente su contraseÃ±a";
 	leer contrasena2;
 	si contrasena2 = contrasena1 Entonces
-		Imprimir "su contraseña es correcta ";
+		Imprimir "su contraseÃ±a es correcta ";
 	SiNo
-		Imprimir "la contraseña es incorrecta";
+		Imprimir "la contraseÃ±a es incorrecta";
 	FinSi
 	
 FinAlgoritmo
