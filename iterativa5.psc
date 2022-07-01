@@ -3,7 +3,7 @@ Algoritmo iterativa5
 	contrasena1=0;
 	contrasena2=0;
 	
-	Imprimir "ingrese su contrasena";
+	Imprimir "ingrese su contrasena, debe constar de 10 cifras";
 	leer contrasena1;
 	mientras contrasena1<999999999 Hacer
 		Imprimir "su contraseña no es segura, escribala de nuevo";
