@@ -4,13 +4,16 @@ Algoritmo iterativas8
 	tabla=0;
 	resp=0;
 	mult=1;
-	Imprimir "escriba la tabla que desee ver";
-	leer tabla;
-	Imprimir "-----------------------tabla del ",tabla,"------------------------------"
-	Para mult=1 hasta num Con Paso 1 Hacer
-		resp=tabla*mult;
-		Imprimir tabla, " x ",mult," = ",resp;
-	FinPara
+	x=1;
+	mientras x<=10 Hacer
+		Imprimir "-----------------------tabla del ",x,"------------------------------"
+		Para mult=1 hasta num Con Paso 1 Hacer
+			resp=x*mult;
+			Imprimir x, " x ",mult," = ",resp;
+		FinPara
+		x=x+1;
+	FinMientras
+	
 	
 	
 FinAlgoritmo
